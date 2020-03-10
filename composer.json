@@ -1,8 +1,11 @@
 {
-    "name": "htmlburger/carbon-field-YOURFIELDNAME",
-    "description": "Carbon Fields extension, that adds a YOURFIELDNAME field type.",
-    "keywords": ["wordpress", "carbon-field", "carbon-field-YOURFIELDNAME"],
-    "homepage": "http://yourhomepage.example.com",
+    "name": "kaesetoast/carbon-field-icon",
+    "description": "Carbon Fields extension, that adds an icon field type.",
+    "keywords": [
+        "wordpress",
+        "carbon-field",
+        "carbon-field-ICON"
+    ],
     "type": "library",
     "license": "GPL-2.0+",
     "authors": [],
@@ -12,7 +15,7 @@
             "field.php"
         ],
         "psr-4": {
-            "Carbon_Field_YOURFIELDNAME\\": "core/"
+            "Carbon_Field_ICON\\": "core/"
         }
     }
 }

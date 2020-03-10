@@ -3,7 +3,7 @@
  */
 import { Component } from '@wordpress/element';
 
-class YOURFIELDNAMEField extends Component {
+class ICONField extends Component {
 	/**
 	 * Renders the component.
 	 *
@@ -16,4 +16,4 @@ class YOURFIELDNAMEField extends Component {
 	}
 }
 
-export default YOURFIELDNAMEField;
+export default ICONField;

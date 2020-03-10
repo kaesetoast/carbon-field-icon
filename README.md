@@ -16,19 +16,19 @@ You can download the template from here: https://github.com/htmlburger/carbon-fi
 
 Template Structure
 
-- `/src` - field files folder
-- `/languages` - folder for .po, .mo and .pot files
-- `/core` - folder for all of your .php files
-- `/field.php` - bootstrapping php code
+-   `/src` - field files folder
+-   `/languages` - folder for .po, .mo and .pot files
+-   `/core` - folder for all of your .php files
+-   `/field.php` - bootstrapping php code
 
 ### Step 2: Name your field
 
-Replace the `YOURFIELDNAME` and `yourfieldname` (case sensitive) placeholders in all files. Also rename the files that contain the placeholders.
+Replace the `ICON` and `icon` (case sensitive) placeholders in all files. Also rename the files that contain the placeholders.
 
 **NB!** If your field name contains multiple words, for example Image Gallery, your class names should look like this:
 
-* **PHP class:** `Image_Gallery_Field`
-* **Field Component Registration:** `image_gallery` (refer to `registerFieldType`@`/src/index.js`)
+-   **PHP class:** `Image_Gallery_Field`
+-   **Field Component Registration:** `image_gallery` (refer to `registerFieldType`@`/src/index.js`)
 
 ### Step 3: Build assets
 

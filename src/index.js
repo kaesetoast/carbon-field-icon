@@ -7,6 +7,6 @@ import { registerFieldType } from '@carbon-fields/core';
  * Internal dependencies.
  */
 import './style.scss';
-import YourFieldNameField from './main';
+import IconField from './main';
 
-registerFieldType( 'yourfieldname', YourFieldNameField );
+registerFieldType( 'icon', IconField );
